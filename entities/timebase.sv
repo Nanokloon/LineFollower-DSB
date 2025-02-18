@@ -1,0 +1,8 @@
+module timebase 
+   (input logic clk,
+    input logic reset,
+    output logic [?:0] count);
+
+
+
+endmodule
