@@ -4,7 +4,7 @@ module motorcontrol
     input logic direction, 
     input logic [?:0] count_in,
     output logic pwm);
-
+    
 
 
 endmodule
