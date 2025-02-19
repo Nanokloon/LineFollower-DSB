@@ -7,4 +7,206 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-d/home/nano/Documents/EE/DS-B/randomVerilog
+Z0 d/home/nano/Documents/EE/DS-B/randomVerilog
+T_opt
+!s110 1739987669
+ViC[Km^Km;LJi>K:R15=cN1
+04 11 4 work timebase_tb fast 0
+=1-000ae431a4f1-67b61ad5-96700-1d978
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.6g;65
+R0
+vblinking_led
+Z2 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z3 !s110 1739988581
+!i10b 1
+!s100 <0lR74YAbCmRiY]YGZE;43
+IZ@z6KWGiBO0`b=]<J44fk3
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+!s105 blinking_led_sv_unit
+S1
+Z5 d/home/nano/Documents/EE/DS-B/LineFollower-DSB
+w1739890971
+8/home/nano/Documents/EE/DS-B/LineFollower-DSB/blinking_led.sv
+F/home/nano/Documents/EE/DS-B/LineFollower-DSB/blinking_led.sv
+L0 1
+Z6 OL;L;10.6g;65
+r1
+!s85 0
+31
+Z7 !s108 1739988581.000000
+!s107 /home/nano/Documents/EE/DS-B/LineFollower-DSB/blinking_led.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nano/Documents/EE/DS-B/LineFollower-DSB/blinking_led.sv|
+!i113 0
+Z8 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vblinking_led_tb
+R2
+R3
+!i10b 1
+!s100 Q3Cb0:FE=6?3FlU4cL:E53
+IbGOZlE6b2SKV;AZ1k6Koo0
+R4
+!s105 blinking_led_tb_sv_unit
+S1
+R5
+w1739890973
+8/home/nano/Documents/EE/DS-B/LineFollower-DSB/blinking_led_tb.sv
+F/home/nano/Documents/EE/DS-B/LineFollower-DSB/blinking_led_tb.sv
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/nano/Documents/EE/DS-B/LineFollower-DSB/blinking_led_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nano/Documents/EE/DS-B/LineFollower-DSB/blinking_led_tb.sv|
+!i113 0
+R8
+R1
+vinputbuffer
+R2
+R3
+!i10b 1
+!s100 gAG^h3jPRiOJTf@52kK@U1
+I@5mG4@[1iV12]g[J3NNzD3
+R4
+!s105 inputbuffer_sv_unit
+S1
+R5
+w1700473387
+8/home/nano/Documents/EE/DS-B/LineFollower-DSB/entities/inputbuffer.sv
+F/home/nano/Documents/EE/DS-B/LineFollower-DSB/entities/inputbuffer.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/nano/Documents/EE/DS-B/LineFollower-DSB/entities/inputbuffer.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nano/Documents/EE/DS-B/LineFollower-DSB/entities/inputbuffer.sv|
+!i113 0
+R8
+R1
+vmotorcontrol_tb
+R2
+R3
+!i10b 1
+!s100 :B8Yi2Oo;QP<8>OCdD=f33
+IR^J9km[@a77RRWkS:_SJk2
+R4
+!s105 motorcontrol_tb_sv_unit
+S1
+R5
+w1739890968
+8/home/nano/Documents/EE/DS-B/LineFollower-DSB/motorcontrol_tb.sv
+F/home/nano/Documents/EE/DS-B/LineFollower-DSB/motorcontrol_tb.sv
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/nano/Documents/EE/DS-B/LineFollower-DSB/motorcontrol_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nano/Documents/EE/DS-B/LineFollower-DSB/motorcontrol_tb.sv|
+!i113 0
+R8
+R1
+vrobot
+R2
+R3
+!i10b 1
+!s100 cQL[Qz1a:2n@ezn[M9FoF2
+I05ea<`H7SIdzN4Z]fB>B]0
+R4
+!s105 robot_sv_unit
+S1
+R5
+w1700473424
+8/home/nano/Documents/EE/DS-B/LineFollower-DSB/entities/robot.sv
+F/home/nano/Documents/EE/DS-B/LineFollower-DSB/entities/robot.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/nano/Documents/EE/DS-B/LineFollower-DSB/entities/robot.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nano/Documents/EE/DS-B/LineFollower-DSB/entities/robot.sv|
+!i113 0
+R8
+R1
+vrobot_tb
+R2
+R3
+!i10b 1
+!s100 NZM8Q:n0DD=[0kz35fN@^2
+IXL_`E`R4o6WPXd3n0Z1Fc3
+R4
+!s105 robot_tb_sv_unit
+S1
+R5
+w1739890970
+8/home/nano/Documents/EE/DS-B/LineFollower-DSB/robot_tb.sv
+F/home/nano/Documents/EE/DS-B/LineFollower-DSB/robot_tb.sv
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/nano/Documents/EE/DS-B/LineFollower-DSB/robot_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nano/Documents/EE/DS-B/LineFollower-DSB/robot_tb.sv|
+!i113 0
+R8
+R1
+vtimebase
+R2
+!s110 1739989478
+R4
+r1
+!s85 0
+31
+!i10b 1
+!s100 g?zcME<Wllkz162]bN]BU2
+IVmaWYU6NiQ<mzZ_G3UP`C1
+!s105 timebase_sv_unit
+S1
+R5
+w1739989469
+8/home/nano/Documents/EE/DS-B/LineFollower-DSB/entities/timebase.sv
+F/home/nano/Documents/EE/DS-B/LineFollower-DSB/entities/timebase.sv
+L0 1
+R6
+!s108 1739989478.000000
+!s107 /home/nano/Documents/EE/DS-B/LineFollower-DSB/entities/timebase.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nano/Documents/EE/DS-B/LineFollower-DSB/entities/timebase.sv|
+!i113 0
+R8
+R1
+vtimebase_tb
+R2
+!s110 1739989480
+R4
+r1
+!s85 0
+31
+!i10b 1
+!s100 ZG5RGR?<h9f]acR@9Tboi2
+I>VfX@M7fPgCD8V`eeBk_^1
+!s105 timebase_tb_sv_unit
+S1
+R5
+w1739989146
+8/home/nano/Documents/EE/DS-B/LineFollower-DSB/timebase_tb.sv
+F/home/nano/Documents/EE/DS-B/LineFollower-DSB/timebase_tb.sv
+L0 3
+R6
+!s108 1739989480.000000
+!s107 /home/nano/Documents/EE/DS-B/LineFollower-DSB/timebase_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/nano/Documents/EE/DS-B/LineFollower-DSB/timebase_tb.sv|
+!i113 0
+R8
+R1

@@ -1,0 +1,34 @@
+module timebase 
+   (input logic clk,
+    input logic reset,
+    output logic [4:0] count);
+    logic [16:0] internal_count,next_internal_count;
+    logic [4:0] next_count;
+    always_ff @(posedge clk) begin
+        if(reset)begin
+            count <=0;
+            internal_count <=0 ;
+        end
+        else begin
+            count <= next_count;
+            internal_count <= next_internal_count;
+        end
+    end
+
+    always_comb
+    begin
+    if(internal_count ==? 100000) begin
+        next_internal_count=0;
+        if(count ==? 19)
+            next_count = 0;
+        else
+            next_count = count+1;
+    end
+    else begin
+        next_internal_count = internal_count+1;
+        next_count=count;
+    end
+    
+    end
+
+endmodule
