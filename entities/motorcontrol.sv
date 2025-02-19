@@ -39,10 +39,17 @@ module motorcontrol
                 else
                     next_state = motor_cw; 
             end
+            default:
+            begin
+                if(direction ==? 0)
+                    next_state = motor_ccw;
+                else
+                    next_state = motor_cw;
+            end
         endcase
     end
 
-    always_comb
+    always_comb //PWM logic
     begin
         case(state)
             motor_off:

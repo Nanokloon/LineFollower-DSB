@@ -5,12 +5,19 @@ QuestaSim-64 vlog 10.6g Compiler 2019.08 Aug  2 2019
 Top level modules:
 	timebase
 
-} {} {}} /home/nano/Documents/EE/DS-B/LineFollower-DSB/blinking_led.sv {1 {vlog -work work -vopt -sv -stats=none /home/nano/Documents/EE/DS-B/LineFollower-DSB/blinking_led.sv
+} {} {}} /home/nano/Documents/EE/DS-B/LineFollower-DSB/entities/robot.sv {1 {vlog -work work -vopt -sv -stats=none /home/nano/Documents/EE/DS-B/LineFollower-DSB/entities/robot.sv
 QuestaSim-64 vlog 10.6g Compiler 2019.08 Aug  2 2019
--- Compiling module blinking_led
+-- Compiling module robot
 
 Top level modules:
-	blinking_led
+	robot
+
+} {} {}} /home/nano/Documents/EE/DS-B/LineFollower-DSB/entities/motorcontrol.sv {1 {vlog -work work -vopt -sv -stats=none /home/nano/Documents/EE/DS-B/LineFollower-DSB/entities/motorcontrol.sv
+QuestaSim-64 vlog 10.6g Compiler 2019.08 Aug  2 2019
+-- Compiling module motorcontrol
+
+Top level modules:
+	motorcontrol
 
 } {} {}} /home/nano/Documents/EE/DS-B/LineFollower-DSB/entities/inputbuffer.sv {1 {vlog -work work -vopt -sv -stats=none /home/nano/Documents/EE/DS-B/LineFollower-DSB/entities/inputbuffer.sv
 QuestaSim-64 vlog 10.6g Compiler 2019.08 Aug  2 2019
@@ -19,12 +26,12 @@ QuestaSim-64 vlog 10.6g Compiler 2019.08 Aug  2 2019
 Top level modules:
 	inputbuffer
 
-} {} {}} /home/nano/Documents/EE/DS-B/LineFollower-DSB/entities/robot.sv {1 {vlog -work work -vopt -sv -stats=none /home/nano/Documents/EE/DS-B/LineFollower-DSB/entities/robot.sv
+} {} {}} /home/nano/Documents/EE/DS-B/LineFollower-DSB/blinking_led.sv {1 {vlog -work work -vopt -sv -stats=none /home/nano/Documents/EE/DS-B/LineFollower-DSB/blinking_led.sv
 QuestaSim-64 vlog 10.6g Compiler 2019.08 Aug  2 2019
--- Compiling module robot
+-- Compiling module blinking_led
 
 Top level modules:
-	robot
+	blinking_led
 
 } {} {}} /home/nano/Documents/EE/DS-B/LineFollower-DSB/timebase_tb.sv {1 {vlog -work work -vopt -sv -stats=none /home/nano/Documents/EE/DS-B/LineFollower-DSB/timebase_tb.sv
 QuestaSim-64 vlog 10.6g Compiler 2019.08 Aug  2 2019
@@ -54,9 +61,11 @@ QuestaSim-64 vlog 10.6g Compiler 2019.08 Aug  2 2019
 Top level modules:
 	robot_tb
 
-} {} {}} /home/nano/Documents/EE/DS-B/LineFollower-DSB/entities/controller.sv {0 {vlog -work work -vopt -sv -stats=none /home/nano/Documents/EE/DS-B/LineFollower-DSB/entities/controller.sv
+} {} {}} /home/nano/Documents/EE/DS-B/LineFollower-DSB/entities/controller.sv {1 {vlog -work work -vopt -sv -stats=none /home/nano/Documents/EE/DS-B/LineFollower-DSB/entities/controller.sv
 QuestaSim-64 vlog 10.6g Compiler 2019.08 Aug  2 2019
 -- Compiling module controller
-** Error: (vlog-13069) /home/nano/Documents/EE/DS-B/LineFollower-DSB/entities/controller.sv(9): near "?": syntax error, unexpected '?'.
 
-} {4.0 5.0} {}}
+Top level modules:
+	controller
+
+} {} {}}

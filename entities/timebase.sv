@@ -2,7 +2,9 @@ module timebase
    (input logic clk,
     input logic reset,
     output logic [20:0] count);
+    
     logic [20:0] next_count;
+    
     always_ff @(posedge clk)
     begin
         if(reset)
