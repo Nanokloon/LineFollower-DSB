@@ -1,1 +1,4 @@
-*.wlf
+/*
+.wlf
+work/*
+!.sv
