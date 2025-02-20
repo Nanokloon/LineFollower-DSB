@@ -17,38 +17,12 @@ module motorcontrol
     
     always_comb //state logic
     begin
-        case(state)
-            motor_off:
-            begin
-                if(direction ==? 0)
-                    next_state = motor_ccw;
-                else
-                    next_state = motor_cw;
-            end
-            motor_ccw:
-            begin
-                if(direction ==? 0)
-                    next_state = motor_ccw;
-                else
-                    next_state = motor_cw;
-            end
-            motor_cw:
-            begin
-                if(direction ==? 0)
-                    next_state = motor_ccw;
-                else
-                    next_state = motor_cw; 
-            end
-            default:
-            begin
-                if(direction ==? 0)
-                    next_state = motor_ccw;
-                else
-                    next_state = motor_cw;
-            end
-        endcase
+        if(direction ==? 0)
+            next_state = motor_ccw;
+        else
+            next_state = motor_cw;
     end
-
+    
     always_comb //PWM logic
     begin
         case(state)

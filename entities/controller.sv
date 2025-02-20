@@ -22,11 +22,9 @@ module controller
     always_ff @(posedge clk) begin
         if(reset)begin
             state <= off;
-            count_reset<=1;
         end
         else begin
             state <= next_state;
-            count_reset<=0;
         end
     end
     
@@ -101,6 +99,21 @@ module controller
                     motor_r_reset=1;
                 end
         endcase
+    end
+
+
+    always_comb
+    begin
+    if(!(state==?off))
+        begin
+            if(count_in ==? 2000000)
+                assign count_reset = 1;
+            else
+                assign count_reset = 0;
+        end
+    else begin
+        assign count_reset = 1;
+    end
     end
 endmodule
    

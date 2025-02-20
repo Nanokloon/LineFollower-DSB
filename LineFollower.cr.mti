@@ -1,58 +1,9 @@
-/home/nano/Documents/EE/DS-B/LineFollower-DSB/entities/timebase.sv {1 {vlog -work work -vopt -sv -stats=none /home/nano/Documents/EE/DS-B/LineFollower-DSB/entities/timebase.sv
-QuestaSim-64 vlog 10.6g Compiler 2019.08 Aug  2 2019
--- Compiling module timebase
-
-Top level modules:
-	timebase
-
-} {} {}} /home/nano/Documents/EE/DS-B/LineFollower-DSB/entities/robot.sv {1 {vlog -work work -vopt -sv -stats=none /home/nano/Documents/EE/DS-B/LineFollower-DSB/entities/robot.sv
-QuestaSim-64 vlog 10.6g Compiler 2019.08 Aug  2 2019
--- Compiling module robot
-
-Top level modules:
-	robot
-
-} {} {}} /home/nano/Documents/EE/DS-B/LineFollower-DSB/entities/motorcontrol.sv {1 {vlog -work work -vopt -sv -stats=none /home/nano/Documents/EE/DS-B/LineFollower-DSB/entities/motorcontrol.sv
-QuestaSim-64 vlog 10.6g Compiler 2019.08 Aug  2 2019
--- Compiling module motorcontrol
-
-Top level modules:
-	motorcontrol
-
-} {} {}} /home/nano/Documents/EE/DS-B/LineFollower-DSB/entities/inputbuffer.sv {1 {vlog -work work -vopt -sv -stats=none /home/nano/Documents/EE/DS-B/LineFollower-DSB/entities/inputbuffer.sv
-QuestaSim-64 vlog 10.6g Compiler 2019.08 Aug  2 2019
--- Compiling module inputbuffer
-
-Top level modules:
-	inputbuffer
-
-} {} {}} /home/nano/Documents/EE/DS-B/LineFollower-DSB/blinking_led.sv {1 {vlog -work work -vopt -sv -stats=none /home/nano/Documents/EE/DS-B/LineFollower-DSB/blinking_led.sv
+/home/nano/Documents/EE/DS-B/LineFollower-DSB/blinking_led.sv {1 {vlog -work work -vopt -sv -stats=none /home/nano/Documents/EE/DS-B/LineFollower-DSB/blinking_led.sv
 QuestaSim-64 vlog 10.6g Compiler 2019.08 Aug  2 2019
 -- Compiling module blinking_led
 
 Top level modules:
 	blinking_led
-
-} {} {}} /home/nano/Documents/EE/DS-B/LineFollower-DSB/timebase_tb.sv {1 {vlog -work work -vopt -sv -stats=none /home/nano/Documents/EE/DS-B/LineFollower-DSB/timebase_tb.sv
-QuestaSim-64 vlog 10.6g Compiler 2019.08 Aug  2 2019
--- Compiling module timebase_tb
-
-Top level modules:
-	timebase_tb
-
-} {} {}} /home/nano/Documents/EE/DS-B/LineFollower-DSB/blinking_led_tb.sv {1 {vlog -work work -vopt -sv -stats=none /home/nano/Documents/EE/DS-B/LineFollower-DSB/blinking_led_tb.sv
-QuestaSim-64 vlog 10.6g Compiler 2019.08 Aug  2 2019
--- Compiling module blinking_led_tb
-
-Top level modules:
-	blinking_led_tb
-
-} {} {}} /home/nano/Documents/EE/DS-B/LineFollower-DSB/motorcontrol_tb.sv {1 {vlog -work work -vopt -sv -stats=none /home/nano/Documents/EE/DS-B/LineFollower-DSB/motorcontrol_tb.sv
-QuestaSim-64 vlog 10.6g Compiler 2019.08 Aug  2 2019
--- Compiling module motorcontrol_tb
-
-Top level modules:
-	motorcontrol_tb
 
 } {} {}} /home/nano/Documents/EE/DS-B/LineFollower-DSB/robot_tb.sv {1 {vlog -work work -vopt -sv -stats=none /home/nano/Documents/EE/DS-B/LineFollower-DSB/robot_tb.sv
 QuestaSim-64 vlog 10.6g Compiler 2019.08 Aug  2 2019
@@ -61,11 +12,25 @@ QuestaSim-64 vlog 10.6g Compiler 2019.08 Aug  2 2019
 Top level modules:
 	robot_tb
 
-} {} {}} /home/nano/Documents/EE/DS-B/LineFollower-DSB/entities/controller.sv {1 {vlog -work work -vopt -sv -stats=none /home/nano/Documents/EE/DS-B/LineFollower-DSB/entities/controller.sv
+} {} {}} /home/nano/Documents/EE/DS-B/LineFollower-DSB/motorcontrol_tb.sv {1 {vlog -work work -vopt -sv -stats=none /home/nano/Documents/EE/DS-B/LineFollower-DSB/motorcontrol_tb.sv
 QuestaSim-64 vlog 10.6g Compiler 2019.08 Aug  2 2019
--- Compiling module controller
+-- Compiling module motorcontrol_tb
 
 Top level modules:
-	controller
+	motorcontrol_tb
+
+} {} {}} /home/nano/Documents/EE/DS-B/LineFollower-DSB/blinking_led_tb.sv {1 {vlog -work work -vopt -sv -stats=none /home/nano/Documents/EE/DS-B/LineFollower-DSB/blinking_led_tb.sv
+QuestaSim-64 vlog 10.6g Compiler 2019.08 Aug  2 2019
+-- Compiling module blinking_led_tb
+
+Top level modules:
+	blinking_led_tb
+
+} {} {}} /home/nano/Documents/EE/DS-B/LineFollower-DSB/timebase_tb.sv {1 {vlog -work work -vopt -sv -stats=none /home/nano/Documents/EE/DS-B/LineFollower-DSB/timebase_tb.sv
+QuestaSim-64 vlog 10.6g Compiler 2019.08 Aug  2 2019
+-- Compiling module timebase_tb
+
+Top level modules:
+	timebase_tb
 
 } {} {}}
